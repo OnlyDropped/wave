@@ -31,6 +31,9 @@
   display: flex;
 }
 
+.menu__btn {
+  opacity: 0;
+}
 .menu__list-item {
   margin-right: 45px;
   padding-bottom: 11px;
@@ -756,7 +759,7 @@ textarea::placeholder {
   padding: 68px 0 69px 0;
 }
 
-.footer__link img{
+.footer__link img {
   display: block;
   margin: 0 auto;
 }
