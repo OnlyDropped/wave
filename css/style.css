@@ -521,6 +521,7 @@
 }
 
 .item__package {
+  background-color: #FFFFFF;
   padding: 45px 42px 45px 43px;
   margin-right: 60px;
 }
@@ -654,6 +655,7 @@ textarea {
   border: none;
   border-bottom: 2px solid #DADADA;
   margin-bottom: 73px;
+  padding-right: 15px;
 }
 
 textarea::placeholder {

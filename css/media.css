@@ -1,0 +1,42 @@
+@media (max-width: 920px) {
+  .menu__list {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu__list {
+    display: none;
+  }
+  .header__title {
+    font-size: 175px;
+    line-height: 197px;
+  }
+}
+
+@media (max-width: 595px) {
+  .header__title {
+    font-size: 145px;
+    line-height: 160px;
+  }
+  .header__subtitle {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__title {
+    font-size: 115px;
+    line-height: 124px;
+  }
+  .header__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 410px) {
+  .header__title {
+    font-size: 88px;
+    line-height: 95px;
+  }
+}
