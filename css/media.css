@@ -10,7 +10,7 @@
 
 @media (max-width: 1100px) {
   .school__title::after {
-    display: none;
+    opacity: 0;
   }
   .school__title {
     max-width: 625px;
@@ -122,6 +122,16 @@
   .header__subtitle {
     font-size: 18px;
   }
+  .school__title {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  .school__text-excerpt .school__text-excerpt--first {
+    margin-bottom: 134px;
+  }
+  .school__text-excerpt .school__text-excerpt--second {
+    margin-bottom: 180px;
+  }
 }
 
 @media (max-width: 410px) {
@@ -147,5 +157,15 @@
   }
   .school__text-excerpt .school__text-excerpt--second {
     margin-bottom: 228px;
+  }
+}
+
+@media (max-width: 320px) {
+  .school__title {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .school__text-excerpt .school__text-excerpt--second {
+    margin-bottom: 243px;
   }
 }
