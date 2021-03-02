@@ -249,6 +249,36 @@
   .high__inner {
     text-align: center;
   }
+  .portfolio {
+    padding: 0px 10px 70px 10px;
+  }
+  .portfolio__title {
+    margin-bottom: 50px;
+  }
+  .portfolio__btn {
+    margin-bottom: 25px;
+  }
+  .portfolio__item {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .portfolio__add {
+    margin-bottom: 60px;
+  }
+  .blockquote {
+    margin-bottom: 60px;
+  }
+  .blockquote__author {
+    width: 100%;
+    left: 0px;
+    margin: 0 auto;
+  }
+  .portfolio__numbers {
+    flex-direction: column;
+  }
+  .portfolio__video {
+    margin-bottom: 65px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -334,7 +364,7 @@
     position: absolute;
     left: 0px;
   }
-  .expertise__item-text{
+  .expertise__item-text {
     width: 100%;
   }
 }
