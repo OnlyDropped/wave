@@ -1,3 +1,25 @@
+@media (max-width: 1232px) {
+  .expertise {
+    padding-top: ;
+    padding-bottom: ;
+  }
+  .expertise__title::after {
+    opacity: 0;
+  }
+  .expertise__logo {
+    max-width: 100%;
+    margin-right: 130px;
+  }
+  .expertise__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .expertise__logo {
+    margin-bottom: 45px;
+  }
+  .expertise__item {}
+}
+
 @media (max-width: 1200px) {
   .school {
     padding: 150px 0 120px;
@@ -5,6 +27,9 @@
   .school__title::after {
     top: 20px;
     right: 77px;
+  }
+  .expertise__item {
+    margin-right: 40px;
   }
 }
 
@@ -16,6 +41,20 @@
     max-width: 625px;
     margin: 0 auto;
     margin-bottom: 55px;
+  }
+  .expertise__title::after {
+    opacity: 0;
+  }
+  .expertise__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .expertise__item {
+    margin-right: 110px;
+    margin-bottom: 10px;
+  }
+  .expertise {
+    padding: 75px 0 90px;
   }
 }
 
@@ -66,6 +105,11 @@
   .school__text-excerpt .school__text-excerpt--first {
     margin-bottom: 67px;
   }
+  .expertise__item {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -79,6 +123,9 @@
   .header__title {
     font-size: 175px;
     line-height: 197px;
+  }
+  .expertise__item--marketing {
+    margin-bottom: -45px;
   }
 }
 
@@ -131,6 +178,11 @@
   }
   .school__text-excerpt .school__text-excerpt--second {
     margin-bottom: 180px;
+  }
+  .expertise__title{
+    font-size: 43px;
+    line-height: 62px;
+    margin-bottom: 43px;
   }
 }
 
