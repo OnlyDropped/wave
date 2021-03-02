@@ -31,6 +31,22 @@
   .expertise__item {
     margin-right: 40px;
   }
+  .high {
+    padding: 110px 0 120px;
+    background-image: none;
+    background-repeat: no-repeat;
+  }
+  .high__title::after {
+    content: url(../img/slash.svg);
+    opacity: 0;
+  }
+  .high__inner {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .high__text {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -179,7 +195,7 @@
   .school__text-excerpt .school__text-excerpt--second {
     margin-bottom: 180px;
   }
-  .expertise__title{
+  .expertise__title {
     font-size: 43px;
     line-height: 62px;
     margin-bottom: 43px;
@@ -210,6 +226,17 @@
   .school__text-excerpt .school__text-excerpt--second {
     margin-bottom: 228px;
   }
+  .high__inner .high__title {
+    font-size: 47px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .high {
+    padding: 60px 15px 60px;
+  }
+  .high__inner{
+    text-align: center;
+  }
 }
 
 @media (max-width: 320px) {
@@ -219,5 +246,26 @@
   }
   .school__text-excerpt .school__text-excerpt--second {
     margin-bottom: 243px;
+  }
+  .high {
+    padding: 50px 15px 50px 15px;
+  }
+  .high__inner .high__title {
+    text-align: center;
+  }
+  .high__inner .high__title {
+    font-size: 38px;
+  }
+  .high__title {
+    margin-bottom: 40px;
+  }
+  .high__text {
+    width: 100%;
+  }
+  .high__text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
   }
 }
